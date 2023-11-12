@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    background-color: black;
+}
+.container{
+width: 800px;
+background-color:black;
+margin: 0 auto;
+}
+.container ul{
+    text-align: center;
+    list-style: none;
+}
+.black{
+    width: 100px;
+    height: 20px;
+    background-color: black;
+    
+    display: inline-block;
+}
+.red{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(117, 41, 41);
+    padding: 15px;
+    display: inline-block;
+    
+    
+}
+.container ul,li,a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight:300;
+}
+.image1{
+    width: 100%;
+    height:800px;
+    background-image: url(./picture/background-image.png);
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+.container2{
+width: 500px;
+height: fit-content;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+
+}
+.container2 h1{
+    text-align: center;
+    color: aliceblue;
+    padding-bottom: 20px;
+    font-size:3rem;
+}
+.container2 p{
+    color: aliceblue;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.biodiv{
+    width: 100%;
+    height: 800px;
+    background-color: black;
+    position: relative;
+}
+.biodiv div:nth-child(1){
+width: 400px;
+height: fit-content;
+text-align: center;
+color:aliceblue;
+position: absolute;
+top:30%;
+left: 15%;
+}
+.biodiv div:nth-child(1) h2{
+    padding-bottom: 10px;
+    font-size: 2rem;
+}
+.biodiv div:nth-child(1) p{
+    text-align: justify;
+}
+.biodiv div:nth-child(2){
+    background-image: url(./picture/image.png);
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+    width: 435px;
+    height: 542px;
+    position: absolute;
+    right: 15%;
+    top: 20%;
+}
+.last{
+    width: 100%;
+    height: 800px;
+    background-color: black;
+    position: relative;
+    
+}
+.top-div{
+    width: 800px;
+    height: 300px;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    background-color:black;
+    position: relative;
+}
+.bottom-div{
+    
+    width:800px ;
+    height:300px;
+    position:absolute;
+    bottom: 10%;
+    left: 20%;
+    background-color:black;
+}
+
+.imgdivs1{
+    display: inline-block;
+}
+.lists1{
+    display: inline-block;
+    padding-left: 20px;
+}
+ .imgdivs2{
+display: inline-block;
+padding-left: 50px;
+}
+
+.imgdivs3{
+    display: inline-block;
+    padding-left: 30px;
+}
+
+.lastdiv4{
+    display: inline-block;
+}
+.lists2{
+    display: inline-block;
+    padding-left: 20px;
+}
+.lastdiv5{
+    display: inline-block;
+    padding-left: 50px;
+}
+.lastdiv6{
+    display: inline-block;
+    padding-left: 30px;
+}
+.mainer{
+    padding-left:580px ;
+    padding-top: 60px;
+    color: aliceblue;
+}
+.laster{
+    position: absolute;
+    bottom:40px;
+    left:580px ;
+    color:white
+}
+.footer{
+    width: auto;
+height: 40px;
+    background-color:rgb(116, 9, 9);
+padding: 10px;
+color: white;
+}
+
+
+
+
